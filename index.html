@@ -1,1 +1,308 @@
-"gdirr's Webauftritt ... " 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hans Mustermann - Senior Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Stylesheets can be linked here -->
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        nav {
+            background-color: #f8f8f8;
+            overflow: hidden;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #666;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #000;
+        }
+        /* Hero Section */
+        .hero {
+            background-image: url('hero-background.jpg'); /* Placeholder image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        .btn {
+            background-color: #007BFF;
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 4px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        /* Sections */
+        section {
+            padding: 60px 20px;
+        }
+        h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 40px;
+        }
+        /* Footer */
+        footer {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav a {
+                float: none;
+                width: 100%;
+            }
+            .hero h1 {
+                font-size: 32px;
+            }
+            .hero p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact Me</a>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <h1>Building Innovative Solutions with Precision and Passion</h1>
+    <p>Senior Full Stack Developer specializing in C#, MSSQL, ASP.NET, and Angular</p>
+    <a href="#projects" class="btn">View My Work</a>
+    <a href="#contact" class="btn">Get in Touch</a>
+</section>
+
+<!-- About Me -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>Hans Mustermann</strong>, a seasoned Full Stack Developer with over <strong>10 years</strong> of experience in crafting high-performance web applications. My expertise lies in leveraging <strong>C#, MSSQL, ASP.NET, and Angular</strong> to build scalable and efficient solutions that drive business success.</p>
+    <h3>My Philosophy</h3>
+    <p>I believe in writing clean, maintainable code and staying up-to-date with the latest industry trends. My passion for technology drives me to continuously improve and innovate, ensuring that the solutions I develop are both cutting-edge and reliable.</p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <h3>Front-End Development</h3>
+    <ul>
+        <li>Angular (versions 2+)</li>
+        <li>HTML5 &amp; CSS3</li>
+        <li>JavaScript &amp; TypeScript</li>
+        <li>Responsive Design &amp; Bootstrap</li>
+    </ul>
+    <h3>Back-End Development</h3>
+    <ul>
+        <li>C# &amp; .NET Framework</li>
+        <li>ASP.NET MVC &amp; Web API</li>
+        <li>RESTful Services</li>
+        <li>Entity Framework &amp; LINQ</li>
+    </ul>
+    <h3>Database Management</h3>
+    <ul>
+        <li>Microsoft SQL Server (MSSQL)</li>
+        <li>Database Design &amp; Optimization</li>
+        <li>T-SQL Programming</li>
+        <li>Stored Procedures &amp; Triggers</li>
+    </ul>
+    <h3>Cloud &amp; DevOps</h3>
+    <ul>
+        <li>Azure Services</li>
+        <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
+        <li>Docker &amp; Kubernetes</li>
+        <li>Git &amp; Version Control</li>
+    </ul>
+    <h3>Other Expertise</h3>
+    <ul>
+        <li>Agile &amp; Scrum Methodologies</li>
+        <li>Test-Driven Development (TDD)</li>
+        <li>Microservices Architecture</li>
+        <li>SOLID Principles &amp; Design Patterns</li>
+    </ul>
+</section>
+
+<!-- Experience -->
+<section id="experience">
+    <h2>Experience</h2>
+    <h3>Senior Full Stack Developer</h3>
+    <p><em>Tech Innovators GmbH | 2017 – Present</em></p>
+    <ul>
+        <li>Lead the development of enterprise-level web applications using ASP.NET Core and Angular.</li>
+        <li>Architected microservices-based solutions to enhance system scalability and maintainability.</li>
+        <li>Collaborated with cross-functional teams to implement Agile methodologies, improving project delivery speed by 25%.</li>
+        <li>Mentored junior developers, fostering a culture of knowledge sharing and continuous improvement.</li>
+    </ul>
+    <h3>Full Stack Developer</h3>
+    <p><em>Digital Solutions AG | 2013 – 2017</em></p>
+    <ul>
+        <li>Developed and maintained web applications, contributing to all phases of the development lifecycle.</li>
+        <li>Optimized database queries, reducing load times by up to 40%.</li>
+        <li>Implemented RESTful APIs to enhance data exchange between front-end and back-end systems.</li>
+        <li>Worked closely with clients to gather requirements and deliver customized solutions.</li>
+    </ul>
+    <h3>Software Developer</h3>
+    <p><em>Innovatech Solutions | 2010 – 2013</em></p>
+    <ul>
+        <li>Built dynamic web pages using ASP.NET and JavaScript.</li>
+        <li>Participated in code reviews and pair programming sessions to improve code quality.</li>
+        <li>Assisted in the migration of legacy systems to modern frameworks.</li>
+    </ul>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+    <h3>Project Alpha | Enterprise Resource Planning (ERP) System</h3>
+    <p><strong>Description:</strong> Developed a comprehensive ERP system for a multinational corporation, streamlining operations across finance, HR, and supply chain departments.</p>
+    <p><strong>Technologies:</strong> C#, ASP.NET Core, Angular, MSSQL</p>
+    <p><strong>Achievements:</strong></p>
+    <ul>
+        <li>Reduced operational costs by 15% through process automation.</li>
+        <li>Implemented role-based access control to enhance security.</li>
+    </ul>
+    <h3>Project Beta | E-Commerce Platform</h3>
+    <p><strong>Description:</strong> Created a scalable e-commerce platform supporting thousands of concurrent users and transactions.</p>
+    <p><strong>Technologies:</strong> ASP.NET MVC, AngularJS, Azure Services</p>
+    <p><strong>Achievements:</strong></p>
+    <ul>
+        <li>Increased sales by 30% after the first quarter post-launch.</li>
+        <li>Integrated advanced analytics to track user behavior and improve UX.</li>
+    </ul>
+    <h3>Project Gamma | Real-Time Analytics Dashboard</h3>
+    <p><strong>Description:</strong> Developed a dashboard providing real-time analytics and reporting for business intelligence purposes.</p>
+    <p><strong>Technologies:</strong> ASP.NET Web API, Angular, SignalR</p>
+    <p><strong>Achievements:</strong></p>
+    <ul>
+        <li>Enabled real-time data visualization, aiding in quicker decision-making.</li>
+        <li>Improved data processing speed by 50% through efficient algorithms.</li>
+    </ul>
+</section>
+
+<!-- Education -->
+<section id="education">
+    <h2>Education</h2>
+    <h3>Master of Science in Computer Science</h3>
+    <p><em>Technical University of Munich | 2008 – 2010</em></p>
+    <ul>
+        <li>Specialized in Software Engineering and Database Systems.</li>
+        <li>Thesis: <em>Optimizing Database Performance in Large-Scale Web Applications</em>.</li>
+    </ul>
+    <h3>Bachelor of Science in Computer Science</h3>
+    <p><em>University of Stuttgart | 2005 – 2008</em></p>
+    <ul>
+        <li>Graduated with honors.</li>
+        <li>Active member of the Computer Science Club.</li>
+    </ul>
+</section>
+
+<!-- Certifications -->
+<section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+        <li>Microsoft Certified: Azure Developer Associate</li>
+        <li>Microsoft Certified Solutions Developer (MCSD)</li>
+        <li>Certified ScrumMaster (CSM)</li>
+    </ul>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>
+        "Hans is a remarkable developer with an eye for detail. His expertise in full-stack development significantly contributed to our project's success."
+        <br><em>— Maria Schmidt, Project Manager at Tech Innovators GmbH</em>
+    </blockquote>
+    <blockquote>
+        "Working with Hans was a pleasure. His ability to solve complex problems and deliver high-quality code is truly exceptional."
+        <br><em>— Thomas Müller, Lead Developer at Digital Solutions AG</em>
+    </blockquote>
+</section>
+
+<!-- Contact Me -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <h3>Let's Collaborate</h3>
+    <p>I'm always excited to work on new projects and collaborate with like-minded professionals. Whether you have a question, a project idea, or just want to say hello, feel free to reach out!</p>
+    <h3>Contact Information</h3>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:hans.mustermann@example.com">hans.mustermann@example.com</a></li>
+        <li><strong>Phone:</strong> +49 170 1234567</li>
+        <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/hansmustermann" target="_blank">linkedin.com/in/hansmustermann</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/hansmustermann" target="_blank">github.com/hansmustermann</a></li>
+    </ul>
+    <!-- Contact Form -->
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name..." required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your email..." required><br><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Subject..." required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Write something..." rows="6" required></textarea><br><br>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2023 Hans Mustermann. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+</body>
+</html>
